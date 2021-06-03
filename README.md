@@ -17,6 +17,5 @@ make main
 
 ```
 make test
-ctest
 ./bin/test
 ```
