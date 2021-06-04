@@ -19,3 +19,9 @@ make main
 make test
 ./bin/test
 ```
+
+## TDD
+
+```
+find ../src ../test | entr sh -c 'cmake ..; make test; ./bin/test'
+```
